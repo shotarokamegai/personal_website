@@ -1,0 +1,108 @@
+/*** Header ***/
+
+header {
+
+}
+
+header nav {
+	width: 100%;
+}
+
+header nav ul {
+	float: right;
+	width: 25%;
+	padding: 0;
+}
+
+header nav ul li {
+	float: left;
+	margin-left: 5%;
+	font-size: 1.5em;
+}
+
+/*** Container ***/
+
+div.container {  
+	width: 100%;    
+	position: relative; 
+	height: auto !important;    
+	height: 100%;   
+	min-height: 100%;
+}
+
+div.container h1 {
+	font-size: 6em;
+	letter-spacing: -3px;
+	margin-bottom: -0.5%;
+}
+
+div.container h2 {
+	font-size: 2.5em;
+}
+/*** Main ***/
+
+div.main h1.title {
+	margin-top: 0;
+	font-size: 4em;
+}
+
+div.main {
+
+}
+
+div.about {
+
+}
+
+div.skills {
+	width: auto;
+	padding: 5% 3% 3% 3%;
+}
+
+div.works {
+
+}
+
+div.works div.row {
+	width: 100%;
+}
+
+div.works div.row div.column-left {
+	width: 40%;
+	float: left;
+}
+
+div.works div.row div.column-right {
+	width: 60%;
+	float: left;
+}
+
+div.contacts {
+
+}
+
+/*** Footer ***/
+
+footer { 
+	background: #E6E2FF;   
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+	width: 100%;
+	margin-top: 33.2px;  
+}
+
+footer nav {
+
+}
+
+footer nav ul {
+	float: right;
+	width: 12%;
+	padding: 0;
+}
+
+footer nav ul li {
+	float: left;
+	margin-right: 15%;
+}
