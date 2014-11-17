@@ -35,8 +35,8 @@ div.container {
 }
 
 div.container h1 {
-	font-size: 6em;
-/*	letter-spacing: -3px;*/
+	font-size: 7em;
+	letter-spacing: -3px;
 	margin-bottom: -0.5%;
 }
 
@@ -160,6 +160,10 @@ div.center img {
 div.right {
 	float: left;
 	width: 33.3333%;
+}
+
+h3 a:hover {
+	color: #DEDEDE;;
 }
 
 /*** Footer ***/
