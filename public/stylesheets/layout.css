@@ -34,15 +34,9 @@ div.container {
 	min-height: 100%;
 }
 
-div.container h1 {
-	font-size: 7em;
-	letter-spacing: -3px;
-	margin-bottom: -0.5%;
-}
-
 h1.myname {
-	font-size: 6em;
-	letter-spacing: -3px;
+	font-size: 7em;
+	letter-spacing: -5px;
 	margin-bottom: -0.5%;
 }
 
@@ -54,6 +48,7 @@ h2.summary {
 div.main h1.title {
 	margin-top: 0;
 	font-size: 4em;
+	letter-spacing: 0;
 }
 
 div.skills {
