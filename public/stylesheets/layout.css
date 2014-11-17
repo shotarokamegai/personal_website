@@ -20,6 +20,10 @@ header nav ul li {
 	font-size: 1.5em;
 }
 
+header nav ul li:hover {
+	color: #DEDEDE;
+}
+
 /*** Container ***/
 
 div.container {  
@@ -32,11 +36,17 @@ div.container {
 
 div.container h1 {
 	font-size: 6em;
+/*	letter-spacing: -3px;*/
+	margin-bottom: -0.5%;
+}
+
+h1.myname {
+	font-size: 6em;
 	letter-spacing: -3px;
 	margin-bottom: -0.5%;
 }
 
-div.container h2 {
+h2.summary {
 	font-size: 2.5em;
 }
 /*** Main ***/
@@ -46,25 +56,62 @@ div.main h1.title {
 	font-size: 4em;
 }
 
-div.main {
-
-}
-
-div.about {
-
-}
-
 div.skills {
 	width: auto;
 	padding: 5% 3% 3% 3%;
 }
 
-div.works {
+/*** Skills ***/
 
+div.skills p {
+	margin: 0;
+	line-height: 40pt;
+}
+
+code {
+    font-family: monospace;
+	font-size: 3em;
+	margin-right: 1%;
+	background: #DEDEDE;
+	border-radius: 5px;
+	padding: 0.2% 1%;
+
+}
+
+span.andmore {
+	font-size: 2.5em;
+	margin-left: 1%;
+}
+
+/*** Works ***/
+
+div.works h2 {
+	margin-top: 0;
+}
+
+div.works p {
+	font-size: 1.3em;
+	padding-right: 4%;
+}
+
+div.works img {
+	width: 60%;
+	border: 1px solid #DEDEDE;
+}
+
+div.works img:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-ms-filter: “alpha( opacity=80 )”;
 }
 
 div.works div.row {
 	width: 100%;
+	padding: 1%;
+}
+
+div.works div.row:first-child {
+	margin-top: 5%;
 }
 
 div.works div.row div.column-left {
@@ -77,8 +124,42 @@ div.works div.row div.column-right {
 	float: left;
 }
 
-div.contacts {
+/*** About ***/
 
+h1#about {
+	margin-bottom: 3%;
+}
+
+h2.profile-name {
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+h2.about {
+	font-size: 2em;
+	margin-top: 0;
+}
+
+div.left {
+	float: left;
+	width: 33.3333%;
+}
+
+div.center {
+	float: left;
+	width: 33.3333%;
+}
+
+div.center img {
+	width: 50%;
+    padding:1px;
+    border:1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+div.right {
+	float: left;
+	width: 33.3333%;
 }
 
 /*** Footer ***/
@@ -92,17 +173,27 @@ footer {
 	margin-top: 33.2px;  
 }
 
-footer nav {
-
-}
-
-footer nav ul {
-	float: right;
-	width: 12%;
-	padding: 0;
-}
-
-footer nav ul li {
+footer span {
 	float: left;
-	margin-right: 15%;
+	margin: 2% 0 2% 3%;
 }
+
+
+footer div {
+	float: right;
+	width: 50%;
+	padding: 0;
+	margin: 1%;
+}
+
+footer a img {
+	width: 7%;
+	float: right;
+	margin-right: 2%;
+}
+
+footer a img:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-ms-filter: “alpha( opacity=80 )”;
+}}

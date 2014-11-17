@@ -13,31 +13,31 @@
 		<div class="works">
 			<div class="row group">
 				<div class="column-left">
-					<img src>
+					<a href="https://shocal.herokuapp.com"><img src="images/shocal.png"></a>
 				</div>
 				<div class="column-right">
-					<h2>ShoCal</h2>
-					<p>Description</p>
+					<h2><a href="https://shocal.herokuapp.com">ShoCal</a></h2>
+					<p>Events Calendar App. User can have own calendar and they are able to search and save whatever events according to date, location and free words.</p>
 				</div>
 			</div>
 			<hr />
 			<div class="row group">
 				<div class="column-left">
-					<img src>
+					<a href="https://damp-inlet-3705.herokuapp.com"><img src="images/todo_list.png"></a>
 				</div>
 				<div class="column-right">
-					<h2>Todo List :)</h2>
-					<p>Description</p>
+					<h2><a href="https://damp-inlet-3705.herokuapp.com">Todo List :)</a></h2>
+					<p>Simple Todo List with Bakbone.js and Ruby on Rails.</p>
 				</div>
 			</div>
 			<hr />
 			<div class="row group">
 				<div class="column-left">
-					<img src>
+					<a href="http://nyjcf.com/"><img src="images/japan_cinefest.png"></a>
 				</div>
 				<div class="column-right">
-					<h2>New York Japan Cinefest</h2>
-					<p>Description</p>
+					<h2><a href="http://nyjcf.com/">New York Japan Cinefest</a></h2>
+					<p>Website for New York Japan Cinefest by wordpress.</p>
 				</div>
 			</div>
 		</div>
@@ -49,20 +49,35 @@
 			<p><code>Ruby</code><code>Ruby on Rails</code>
 			<code>JavaScript</code></p>
 			<p><code>jQuery</code>
-			<code>Backbone.js</code><code>underscore.js</code><p>
-			<p><code>PostgreSQL</code><code>HTML5</code><code>CSS3</code></p>
+			<code>Backbone.js</code><code>Underscore.js</code><p>
+			<p><code>PostgreSQL</code><code>HTML5</code><code>CSS3</code><span class="andmore">and more!</span></p>
 		</div>
 	</script>
-
-	<script id='contacts_template' type="text/template">
-		<h1 class="title">Contacts</h1>
+	<script id='about_template' type="text/template">
+		<div>
+			<h2 class="profile-name">Shotaro Kamegai</h2>
+			<h3 style="margin: 0 0 3% 0;">Full-Stack Web Developer | From Japan</h3>
+		</div>
+		<div class="left">
+			<h2 class="about">Resume</h2>
+			<h3><a href="images/shotarokamegai_resume.pdf">English</a> / <a href="images/shotarokamegai_jp_resume.pdf">Japanese</a></h3>
+		</div>
+		<div class="center">
+			<img src="images/headshot.png">
+		</div>
+		<div class="right">
+			<h2 class="about">Contacts</h2>		
+			<h3 class="contacts">Email: <a href="mailto:shotaro326@gmail.com">shotaro326@gmail.com</a></h3>
+			<h3 class="contacts">github: <a href="https://www.github.com/shotarokamegai">github.com/shotarokamegai</a></h3>
+			<h3 class="contacts">LinkedIn: <a href="https://www.linkedin.com/in/shotarokamegai">linkedin.com/in/shotarokamegai</a></h3>
+		</div>
 	</script>
-
-	<script id="about_template" type="text/template">
-		<h1>Shotaro Kamegai</h1>
-		<h2>
-			Im a Full-Stack Web Developer<br />
-			who loves gummy.
+	<script id="home_template" type="text/template">
+		<h1 class="myname">Shotaro Kamegai</h1>
+		<h2 class="summary">
+			I am a Full-Stack Web Developer who loves gummy.<br />
+			Enjoy solving logical problems and exploring new technology.<br />
+			Interested in both Front-end and Back-end.
 		</h2>
 	</script>
 </head>
@@ -71,27 +86,28 @@
 <header class="group">
 	<nav>
 		<ul>
-			<li id="about">About</li>
+			<li id="home">Home</li>
 			<li id="skills">Skills</li>
 			<li id="works">Works</li>
-			<li id="contacts">Contacts</li>
+			<li id="about">About</li>
 		</ul>	
 	</nav>	
 </header>
 <div class="main">
-	<h1>Shotaro Kamegai</h1>
-	<h2>
-		I'm a Full-Stack Web Developer<br />
-		who loves gummy.
+	<h1 class="myname">Shotaro Kamegai</h1>
+	<h2 class="summary">
+		I am a Full-Stack Web Developer who loves gummy.<br />
+		Enjoy solving logical problems and exploring new technology.<br />
+		Interested in both Front-end and Back-end.
 	</h2>
 </div>
 <footer id="footer" class="group">
-	<nav>
-		<ul>
-			<li id="github"><a href="https://github.com/shotarokamegai"><img src="images/github_alt.png"></a></li>
-			<li id="linkedin"><a href="www.linkedin.com/in/shotarokamegai/"><img src="images/linkedin_alt.png"></a></li>
-		</ul>	
-	</nav>	
+	<span>Copyright © Shotaro Kamegai 2014</span>
+	<div class="icon">
+		<a href="mailto:shotaro326@gmail.com" id="email"><img src="images/email.png"></a>
+		<a href="https://github.com/shotarokamegai" id="github"><img src="images/github.png"></a>			
+		<a href="https://www.linkedin.com/in/shotarokamegai" id="linkedin"><img src="images/linkedin.png"></a>
+	</div>
 </footer>	
 </div>
 </body>

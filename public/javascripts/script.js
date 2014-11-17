@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  	$('div.main').show('slow');
+
 	$('ul li').click(function(){
 		$('footer').css('position', 'fixed');
 		$(this).css('text-decoration', 'underline');
@@ -14,4 +16,5 @@ $(document).ready(function() {
 		var template = _.template( $('#' + page + '_template').html() );
 		$('div.main').append(template);
 	});
+	
 });
